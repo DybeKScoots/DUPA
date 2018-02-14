@@ -1,12 +1,12 @@
 body {
 	background: linear-gradient(90deg,#6536c2, #970de2);
 	color:white;
+	font-family: 'Archivo', sans-serif;
 	
 }
-.img-doggo {
-}
 
-.row {
-	display: flex;
-	flex-direction: row;
+.center{
+	text-align: center;
+	font-size: 3em;
+	text-transform: uppercase;
 }
