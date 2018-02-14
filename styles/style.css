@@ -1,9 +1,29 @@
 body {
-	background: linear-gradient(90deg,#6536c2, #970de2);
-	color:white;
-	font-family: 'Archivo', sans-serif;
 	
+	font-family: 'Archivo', sans-serif;
+	margin: 0;
+	padding: 0;
 }
+
+@media only screen and (min-width:62em){
+	.header-content{
+	padding-left: 20rem;
+	padding-right: 20rem;
+}
+	.box {
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+	.box-top-bottom{
+		padding-top: 10rem;
+		
+	}
+}
+
+	.box-top-bottom{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
 
 .center{
 	text-align: center;
@@ -11,3 +31,56 @@ body {
 	text-transform: uppercase;
 	letter-spacing:2px;
 }
+
+
+
+.header-content {
+	padding-top: 10rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	
+}
+
+.navbar-logo {
+	font-weight: bold;
+}
+
+
+
+.img-all-width {
+	width: 100%;
+	
+}
+
+
+
+#hero {
+	position: relative;
+	height: 100vh;
+
+	animation: header 5s ease infinite;
+}
+
+@keyframes header{
+	0%{background:#f6aff8}
+	50%{background:#96a0e3}
+	75%{background: #d779ac}
+	100%{background: #f6aff8}
+}
+
+.header-bottom {
+	position: absolute;
+	bottom: 0;
+}
+
+.justify {
+	text-align: justify;
+}
+
+
+.header-subtitle-text {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	
+}
+
