@@ -1,0 +1,12 @@
+body {
+	background: linear-gradient(90deg,#6536c2, #970de2);
+	color:white;
+	
+}
+.img-doggo {
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
